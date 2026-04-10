@@ -31,7 +31,7 @@ jobs:
           to: k01thanusri@gmail.com
           from: k01thanusri@gmail.com
           body: |
-            Build Status: ${{ job.status }}
+            Build status: ${{ job.status }}
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref }}
             Commit: ${{ github.sha }}
